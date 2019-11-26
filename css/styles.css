@@ -1,0 +1,248 @@
+/*General*/
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*Header*/
+header {
+    height: 40px;
+    padding: 10px;
+}
+
+/*Input*/
+.search {
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    float: left;
+}
+
+.search input {
+    padding: 5px;
+    width: 130px;
+    border-right: 6px solid black;
+    border-top: 1px solid black;
+    border-left: 6px solid black;
+    border-bottom: 1px solid black;
+}
+
+/*Aside*/
+.right-block {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px
+}
+
+.right-block ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right-block ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.golovna,
+.contacts1 {
+    display: flex;
+    margin-top: -10px;
+}
+
+.golovna i,
+.contacts1 i {
+    margin-left: 4px;
+    font-size: 25px;
+    margin-top: 5px
+}
+
+/*Jmbrotron*/
+
+.banner {
+    width: 100%;
+    height: 200px;
+}
+
+/*Shop*/
+.products {
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.products-name {
+    font-size: 30px;
+}
+
+/*Product*/
+.products product a {
+    position: absolute;
+    width: 173px;
+    height: 300px;
+}
+
+.produc {
+    padding: 0 30px;
+}
+
+.produc hr {
+    margin-bottom: 20px;
+}
+
+.product {
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.produc img {
+    max-width: 275px;
+    display: inline-block;
+    width: 1000px;
+    height: 500px;
+    cursor: help;
+}
+
+.produc1 {
+    display: flex;
+}
+
+.produc1 .container{
+    margin: 80px 0 0 30px 
+}
+
+.kyputu .block {
+    display: flex;
+    margin-top: 25px;
+}
+
+.mass {
+    color: #777;
+    width: 100px;
+    font-size: 15px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.price {
+    font-family: Roboto, sans-serif;
+    color: #000;
+    font-size: 28px;
+    display: inline-block;
+    text-align: right;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    height: 30px;
+    width: 96px;
+    position: relative;
+    font-size: 16px;
+    padding: 5px 10px 0;
+    color: black;
+    background-color: #FCC000;
+    font-weight: 400;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.about span {
+    border-bottom: 2px solid #fcc000; 
+    font-weight: bold; 
+    font-size: 24px;
+}
+
+.about ul{
+    list-style: circle;
+    margin-left: 30px;
+}
+
+/*Contacts*/
+.contacts {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.contacts-name {
+    font-size: 30px;
+}
+
+.contact {
+    width: 40%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.schedule {
+    width: 50%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/*404*/
+
+.container_404 {
+    margin: 120px 493.7px;
+    text-align: center
+}
+
+.container_404 h1 {
+    font-size: 60px;
+}
+
+.container_404 p {
+    float: left;
+    font-size: 20px;
+}
+
+.container_404 a {
+    display: inline-block;
+    margin-top: 5px;
+    color: #FFF;
+    background-color: #FCC000;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+/*Footer*/
+
+.footer {
+    margin-top: 55px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 55px;
+    ;
+}
+
+@media(max-width: 320px) {
+    .products {
+        width: 100%;
+    }
+
+    .banner {
+        height: 0;
+        width: 0;
+    }
+
+    .right-block ul li img:first-child {
+        height: 0;
+        width: 0;
+    }
+}
